@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="/ecommerce.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"></head>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
+</head>
+
 <body>
-    <div class="home">
-        <div class="navbar">
-            <p>Ecommerce</p>
+    <div class="mainheader">
+        <div class="header">
+            <div class="home">
+                <div class="navbar">
+                    <p>Ecommerce</p>
+                </div>
+                <div class="controls">
+                    <button onclick="window.location.href='homepage.html'">Home</button>
+                    <button onclick="window.location.href='Products.html'">Products</button>
+                    <button>About</button>
+                    <button onclick="window.location.href='contact.html'">Contact</button>
+                </div>
+                <div class="buttons">
+                    <button onclick="window.location.href='login.html'"><i class="fa-solid fa-right-to-bracket"></i>
+                        Login</button>
+                    <button onclick="window.location.href='register.html'"><i class="fa-solid fa-user-plus"></i>
+                        Register</button>
+                    <button onclick="window.location.href='cart.html'"><i class="fa-solid fa-cart-shopping"></i>
+                        <span>Cart(<span id="cart-count">0</span>)</span></button>
+                </div>
+            </div>
         </div>
-        <div class="controls">
-            <button onclick="window.location.href='homepage.html'">Home</button>
-            <button onclick="window.location.href='Products.html'">Products</button>
-            <button>About</button>
-            <button onclick="window.location.href='contact.html'">Contact</button>
-        </div>
-        <div class="buttons">
-            <button onclick="window.location.href='login.html'"><i class="fa-solid fa-right-to-bracket"></i> Login</button>
-            <button onclick="window.location.href='register.html'"><i class="fa-solid fa-user-plus"></i> Register</button>
-            <button onclick="window.location.href='cart.html'"><i class="fa-solid fa-cart-shopping"></i>
-                <span>Cart(<span id="cart-count">0</span>)</span></button>
-        </div>
-    </div>
-    <br><br>
-    <div class="Aboutheading">
-        <h1>About Us</h1>
-    </div>
-    <div class="hrline">
-        <hr>
-        <br>
-        <p>Welcome to Ecommerce, your all-in-one destination for electronics, clothing, and jewelry.
+        <br><br>
+        <div class="section">
+            <div class="Aboutheading">
+                <h1>About Us</h1>
+            </div>
+            <div class="hrline">
+                <hr>
+                <br>
+                <p>Welcome to Ecommerce, your all-in-one destination for electronics, clothing, and jewelry.
                     We believe shopping should be simple, exciting, and trustworthy.
                     That's why we bring everything you need under one digital roof.
                     Founded with a passion for quality and convenience,
@@ -43,44 +52,46 @@
                     Our mission is to deliver high-quality products at affordable prices.
                     We handpick every item to meet our standards of excellence.
                     Our team works around the clock to ensure smooth shopping experiences.
-        </p>
+                </p>
+            </div>
+            <br><br>
+            <div class="ourheading">
+                <h1>Our Products</h1>
+            </div>
+            <br><br>
+            <div class="aboutimage">
+                <div class="aboutpic">
+                    <img src="/images/pexels-photo-298863.jpeg">
+                    <br>
+                    <p>Men's Clothing</p>
+                    <br>
+                </div>
+                <div class="aboutpic">
+                    <img src="/images/pexels-photo-7679720.jpeg">
+                    <br>
+                    <p>Women's Clothing</p>
+                    <br>
+                </div>
+                <div class="aboutpic">
+                    <img src="/images/pexels-photo-1927259.webp">
+                    <br>
+                    <p>Jewelery</p>
+                    <br>
+                </div>
+                <div class="aboutpic">
+                    <img src="/images/pexels-photo-356056.jpeg">
+                    <br>
+                    <p>Electronics</p>
+                    <br>
+                </div>
+            </div>
+            <br><br>
+        </div>
     </div>
-    <br><br>
-     <div class="ourheading">
-        <h1>Our Products</h1>
-    </div>
-    <br><br>
-    <div class="aboutimage">
-        <div class="aboutpic">
-            <img src="/images/pexels-photo-298863.jpeg" >
-            <br>
-            <p>Men's Clothing</p>
-            <br>
-        </div>
-        <div class="aboutpic">
-            <img src="/images/pexels-photo-7679720.jpeg" >
-            <br>
-            <p>Women's Clothing</p>
-            <br>
-        </div>
-        <div class="aboutpic">
-            <img src="/images/pexels-photo-1927259.webp" >
-            <br>
-            <p>Jewelery</p>
-            <br>
-        </div>
-        <div class="aboutpic">
-            <img src="/images/pexels-photo-356056.jpeg" >
-            <br>
-            <p>Electronics</p>
-            <br>
-        </div>
-    </div>
-    <br><br>
     <h3 class="Achievers">Made with <i class="fa-solid fa-heart clr "></i> by <u>Ranesh</u></h3>
     <script src="/ecommerce.js"></script>
     <script src="/homecart.js"></script>
     <script src="/cart.js"></script>
-    
+
 </body>
 </html>
