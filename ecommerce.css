@@ -22,7 +22,9 @@
     padding: 15px;
     cursor: pointer;
 }
-
+.controls button :hover{
+    color: black;
+}
 
 .buttons button{
     font-size: 20px ;
