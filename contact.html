@@ -11,49 +11,59 @@
 </head>
 
 <body>
-    <div class="home">
-        <div class="navbar">
-            <p>Ecommerce</p>
-        </div>
-        <div class="controls">
-            <button onclick="window.location.href='homepage.html'">Home</button>
-            <button onclick="window.location.href='Products.html'">Products</button>
-            <button onclick="window.location.href='about.html'">About</button>
-            <button>Contact</button>
-        </div>
-        <div class="buttons">
-            <button onclick="window.location.href='login.html'"><i class="fa-solid fa-right-to-bracket"></i> Login</button>
-            <button onclick="window.location.href='register.html'"><i class="fa-solid fa-user-plus"></i> Register</button>
-            <button onclick="window.location.href='cart.html'"><i class="fa-solid fa-cart-shopping"></i>
-                <span>Cart(<span id="cart-count">0</span>)</span></button>
-        </div>
-    </div>
-    <br><br>
-    <div class="Contactheading">
-        <h1>Contact Us</h1>
-    </div>
-    <br>
-    <div class="contactpage">
-        <div class="Contactline">
-            <hr>
+    <div class="mainheader">
+        <div class="header">
+            <div class="home">
+                <div class="navbar">
+                    <p>Ecommerce</p>
+                </div>
+                <div class="controls">
+                    <button onclick="window.location.href='homepage.html'">Home</button>
+                    <button onclick="window.location.href='Products.html'">Products</button>
+                    <button onclick="window.location.href='about.html'">About</button>
+                    <button>Contact</button>
+                </div>
+                <div class="buttons">
+                    <button onclick="window.location.href='login.html'"><i class="fa-solid fa-right-to-bracket"></i>
+                        Login</button>
+                    <button onclick="window.location.href='register.html'"><i class="fa-solid fa-user-plus"></i>
+                        Register</button>
+                    <button onclick="window.location.href='cart.html'"><i class="fa-solid fa-cart-shopping"></i>
+                        <span>Cart(<span id="cart-count">0</span>)</span></button>
+                </div>
+            </div>
         </div>
         <br><br>
-        <div class="contentdetails">
-            <label>Name</label>
-            <input type="text" placeholder="Enter Your name">
-            <label for="">Email</label>
-            <input type="text" placeholder="name@example.com">
-            <label class="message">Message</label>
-            <textarea name="" id="">Enter your message</textarea>
+        <div class="section">
+            <div class="Contactheading">
+                <h1>Contact Us</h1>
+            </div>
             <br>
-           <button class="Sendbtn">Send</button>                        
+            <div class="contactpage">
+                <div class="Contactline">
+                    <hr>
+                </div>
+                <br><br>
+                <div class="contentdetails">
+                    <label>Name</label>
+                    <input type="text" placeholder="Enter Your name">
+                    <br>
+                    <label for="">Email</label>
+                    <input type="text" placeholder="name@example.com">
+                    <br>
+                    <label class="message">Message</label>
+                    <textarea name="" id="">Enter your message</textarea>
+                    <br>
+                    <button class="sendbtn">Send</button>
+                </div>
+            </div>
+            <h3 class="Achievers">Made with <i class="fa-solid fa-heart clr "></i> by <u>Ranesh</u></h3>
         </div>
     </div>
-    <h3 class="Achievers">Made with <i class="fa-solid fa-heart clr "></i> by <u>Ranesh</u></h3>
 </body>
-    <script src="/ecommerce.js"></script>
-    <script src="/homecart.js"></script>
-    <script src="/cart.js"></script>
-    
+<script src="/ecommerce.js"></script>
+<script src="/homecart.js"></script>
+<script src="/cart.js"></script>
+
 
 </html>
