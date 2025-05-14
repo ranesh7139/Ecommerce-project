@@ -22,7 +22,7 @@
     padding: 15px;
     cursor: pointer;
 }
-.controls button :hover{
+.controls button:hover{
     color: black;
 }
 
@@ -36,7 +36,7 @@
     gap: 20px;
     cursor: pointer;
 }
-.buttons button :hover{
+.buttons button:hover{
     background-color: black;
     color: white;
 }
@@ -73,7 +73,10 @@
     margin-top: 70px;
     cursor: pointer;
 }
-
+.Productbtns button:hover{
+    background-color: black;
+    color:white;
+}
 .items{
     margin: 0px 100px;
     color: gray;
