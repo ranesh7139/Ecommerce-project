@@ -18,7 +18,8 @@
     border: 2px solid black;
     width: 1300px;
     border-radius: 5px;
-    
+    overflow-y: scroll;
+    height: 550px;
 }
 .itemback{
     background-color: rgb(204, 195, 195);
