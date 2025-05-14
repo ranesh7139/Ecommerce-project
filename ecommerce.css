@@ -36,7 +36,10 @@
     gap: 20px;
     cursor: pointer;
 }
-
+.buttons button :hover{
+    background-color: black;
+    color: white;
+}
 .homeimage{
     background-image: url("/images/main.png.jpg");
     height: 700px; 
